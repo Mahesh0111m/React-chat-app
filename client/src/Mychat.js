@@ -4,7 +4,7 @@ import ScrollToBottom from 'react-scroll-to-bottom';
 
 const user_list = ['Alan', 'Bob', 'Carol', 'Dean', 'Elin'];
 
-/*rsfp*/
+
 
 function Mychat({socket,room}) {
     const [currentMessage , setcurrentMessage]=useState("");
